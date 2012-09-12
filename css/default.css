@@ -39,14 +39,14 @@ body{
 	padding:20px;
 }
 /* Header */
-#header{
+/*#header{
 	background:#F2F2F2;
 	border:1px solid #cccccc;
 	height:42px;
 	position:absolute;
 	top:40px;
 	z-index:5;
-}
+}*/
 #headerdots{
 float:left;
 }

@@ -4,10 +4,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="css/default.css" media="screen"/>
 <link rel="stylesheet" href="plugins/foundation-3/stylesheets/foundation.css" media="screen"/>
+<link rel="stylesheet" href="plugins/foundation-3/stylesheets/offcanvas.css" media="screen"/>
 <link rel="stylesheet" href="plugins/foundation-3/stylesheets/general_foundicons.css" media="screen"/>
   <link rel="stylesheet" href="plugins/foundation-3/stylesheets/fc-webicons.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script src="plugins/foundation-3/javascripts/jquery.foundation.navigation.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/jquery.foundation.buttons.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/jquery.offcanvas.js" type="text/javascript"></script>
 <script src="plugins/foundation-3/javascripts/modernizr.foundation.js" type="text/javascript"></script>
 <script type="text/javascript">$(function(){
   $(document).foundationNavigation();
@@ -45,7 +48,100 @@ $(window).load(function() {
 <title>KeyteGroup - Home</title>
 </head>
 
-<body id='body'>
+<body id='page' class="off-canvas slide-nav">
+	<div class="container">
+			<nav id="topMenu" role="navigation">
+			<ul id="nav" class="nav-bar">
+				<li class="has-flyout">
+				<a href="">Who We Are</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+					<li>Beau Keyte</li>
+					<li>Affiliates</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">What We Do</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Value Stream Mapping</li>
+						<li>Collaborative Learning</li>
+						<li>Train-the-Trainer</li>
+						<li>Leadership Coaching</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Who We Serve</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Item</li>
+						<li>Item</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">How We Think</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Item</li>
+						<li>Item</li>
+					</ul>
+				</li>
+				<li>Contact Us</li>
+			</ul>
+			</ul>
+		</nav>
+
+		<header id="header" class="row">
+		  <div class="three columns phone-two">
+		    <h1 id="site-title"><a href=""><img src="images/Keyte_Group_logo_large.png" name="logo" id="logo"/></a></h1>
+		  </div>
+		  <div class="nine columns phone-two">
+		    <nav id="menu" role="navigation" class="navigation hide-for-small">
+    			<ul id="mainNav" class="nav-bar">
+    				<li class="has-flyout">
+				<a href="">Who We Are</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+					<li>Beau Keyte</li>
+					<li>Affiliates</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">What We Do</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Value Stream Mapping</li>
+						<li>Collaborative Learning</li>
+						<li>Train-the-Trainer</li>
+						<li>Leadership Coaching</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Who We Serve</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Item</li>
+						<li>Item</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">How We Think</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Item</li>
+						<li>Item</li>
+					</ul>
+				</li>
+				<li>Contact Us</li>
+			</ul>
+    			</ul>
+    		</nav>
+  			<p class="show-for-small">
+  			  <a class='menu-button button' id="menuButton" href="#menu">Menu</a>
+  			  <a class='sidebar-button button' id="sidebarButton" href="#sidebar">Extra</a>
+  			</p>
+		  </div>
+		</header>
 	<div class='row'>
 	<div class="ten columns centered">
 		<div class="row">
@@ -190,6 +286,7 @@ $(window).load(function() {
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 	</div>
 </body>
