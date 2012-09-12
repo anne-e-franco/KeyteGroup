@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+h1{
+	color:#877B6C;
+	font-style:italic;
+	font-size:2em;
+}
+h2{
+	color:#FBB040;
+	text-transform:uppercase;
+	font-size: 1.35em;
+}
+h3{
+	color:#877B6C;
+	text-transform:capitalize;
+	font-size: 1.15em;
+}
+h4{
+	color:#FBB040;
+	font-size:1em;
+}
+p{
+	line-height:1.75em;
+}
+/*
+#header, #footer{
+	width:100%;
+}*/
+/* Body */
+body{
+	background:#fafafa;
+	font-family:Arial,sans-serif;
+	color:#4D4D4D;
+}
+.content{
+	margin:0px auto;
+	background:white;
+	box-shadow: 1px 1px 10px #ccc;
+	padding:20px;
+}
+/* Header */
+#header{
+	background:#F2F2F2;
+	border:1px solid #cccccc;
+	height:42px;
+	position:absolute;
+	top:40px;
+	z-index:5;
+}
+#headerdots{
+float:left;
+}
+#logo{
+	z-index:10;
+	position:relative;
+	top:-30px;
+}
+#logosmall{
+	
+}
+/* Main Navigation */
+#navigation{
+	background:#F2F2F2;
+}
+#navigation a{
+	color:#4D4D4D;
+}
+#navigation >li:hover{
+	background:#FFE293;
+}
+#navigation li{
+	border-right: 2px groove #cccccc;
+}
+#navigation li:first-child{
+	border-left: 2px groove #cccccc;
+}
+/* Main Navigation - Foundation overrides */
+.nav-bar{
+	margin-top:0px !important;
+}
+/* Secondary Navigation */
+.secondnav{
+	list-style:none;
+}
+.secondnav li:first-child{
+		padding-left:0px;
+}
+.secondnav li{
+	padding-left:1em;
+	line-height:2em;
+}
+/* Main Content */
+#maincontent{
+	padding: 10em 3em 2em;
+}
+/* Footer */
+.footerwrapper{
+	background:transparent;
+	height: 40px;
+	width:100%;
+}
+#footer ul, #footer ul li ul{
+	list-style:none;
+}
+#footer ul li ul{
+	margin-left:10px;
+}
+#footer li{
+	font-size:.75em;
+}

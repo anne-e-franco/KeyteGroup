@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/default.css" media="screen"/>
+<link rel="stylesheet" href="plugins/foundation-3/stylesheets/foundation.css" media="screen"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/jquery.foundation.navigation.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+<script type="text/javascript">$(function(){
+  $(document).foundationNavigation();
+});</script>
+<!-- Start NIVO Slider -->
+<link rel="stylesheet" href="plugins/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<script src="plugins/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'sliceUpDown', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: false, // Next & Prev navigation
+        controlNav: false, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        prevText: '<', // Prev directionNav text
+        nextText: '>', // Next directionNav text
+    });
+    $('#mainnav ul li').hover(
+		function () {
+			//show its submenu
+			$('ul', this).slideDown(100);
+
+		}, 
+		function () {
+			//hide its submenu
+			$('ul', this).slideUp(100);			
+		}
+	);
+});
+</script>
+<!-- end NIVO Slider -->
+<title>KeyteGroup - Home</title>
+</head>
+
+<body id='body'>
+	<div class='row'>
+	<div class="ten columns centered">
+		<div class="row">
+		<div id="headerdots"><img src="images/headerdots.png"/></div>
+		<div id='maincontent' class="eleven columns content">
+			<div class="row">
+			<div class="twelve columns" id="slider">
+				<img src="images/newthinking.png" title="New thinking"/>
+			<img src="images/alignworkflow.png" title="New thinking"/><img src="images/guidelearning.png" title="New thinking"/>
+			</div>
+			</div>
+			<div class='row'>
+				<div class='four columns'>	
+					<img src='images/columnicondefault.png'/>
+					<p>
+						Suspendisse potenti. Sed euismod risus eget neque ultrices sed suscipit mauris sagittis. Mauris mattis, lacus consectetur condimentum vulputate, enim mauris tempor ipsum, eu viverra libero tortor at erat. In suscipit nibh nec justo tincidunt eleifend. Mauris in mauris non justo pretium aliquam. Curabitur et tortor et neque suscipit fermentum. Phasellus placerat nisl sed magna accumsan volutpat. Phasellus accumsan neque ac dui malesuada pellentesque.
+					</p>
+				</div>
+				<div class='four columns'>	
+					<img src='images/columnicondefault.png'/>
+					<p>
+						Suspendisse potenti. Sed euismod risus eget neque ultrices sed suscipit mauris sagittis. Mauris mattis, lacus consectetur condimentum vulputate, enim mauris tempor ipsum, eu viverra libero tortor at erat. In suscipit nibh nec justo tincidunt eleifend. Mauris in mauris non justo pretium aliquam. Curabitur et tortor et neque suscipit fermentum. Phasellus placerat nisl sed magna accumsan volutpat. Phasellus accumsan neque ac dui malesuada pellentesque.
+					</p>
+				</div>
+				<div class='four columns'>	
+					<img src='images/columnicondefault.png'/>
+					<p>
+						Suspendisse potenti. Sed euismod risus eget neque ultrices sed suscipit mauris sagittis. Mauris mattis, lacus consectetur condimentum vulputate, enim mauris tempor ipsum, eu viverra libero tortor at erat. In suscipit nibh nec justo tincidunt eleifend. Mauris in mauris non justo pretium aliquam. Curabitur et tortor et neque suscipit fermentum. Phasellus placerat nisl sed magna accumsan volutpat. Phasellus accumsan neque ac dui malesuada pellentesque.
+					</p>
+				</div>
+			</div>
+			</div>
+								<div class="row">
+				<div id="footerdots" class="four columns push-seven mobile-three"><img src='images/footerdots.png'/>
+				</div>
+			</div>
+		</div>	
+	</div>
+			</div>
+	<div id='header' class='row'>
+<div class="three columns mobile-two"><img src="images/Keyte_Group_logo_large.png" name="logo" id="logo"/></div>
+			<div class="nine columns mobile-two">
+		  <ul id="navigation" class="nav-bar">
+				<li class="has-flyout">
+				<a href="">Who We Are</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+					<li>Beau Keyte</li>
+					<li>Affiliates</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">What We Do</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Value Stream Mapping</li>
+						<li>Collaborative Learning</li>
+						<li>Train-the-Trainer</li>
+						<li>Leadership Coaching</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Who We Serve</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Item</li>
+						<li>Item</li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">How We Think</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li>Item</li>
+						<li>Item</li>
+					</ul>
+				</li>
+				<li>Contact Us</li>
+			</ul>
+			</div>
+	</div>
+	<div id='clear' class='row'>
+		<div class='eleven columns centered'></div>	
+	</div>
+
+	<div id="footer" class='row content'>
+		<div class="twelve columns">
+			<div class="row">
+				<div class="two columns mobile-one">
+					<ul>
+						<li>Who We Are
+						<ul>
+						<li>Beau Keyte</li>
+						<li>Affiliates</li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="two columns mobile-one">
+					<ul>
+						<li>What We Do
+						<ul>
+						<li>Value Stream Mapping</li>
+						<li>Collaborative Learning</li>
+						<li>Train-the-Trainer</li>
+						<li>Leadership Coaching</li>
+						</ul>
+						</li>
+					</ul>
+				</div>				
+				<div class="two columns mobile-one">
+					<ul>
+						<li>Who We Serve
+						<ul>
+						<li>Item</li>
+						<li>Item</li>
+						</ul>
+						</li>
+					</ul>
+				</div>	
+				<div class="two columns mobile-one">
+					<ul>
+						<li>How We Think
+						<ul>
+							<li>Item</li>
+							<li>Item</li>
+						</ul>
+						</li>
+					</ul>
+				</div>				
+				<div class="four columns mobile-four">
+					<div class="row">
+						<div class="four columns mobile-two"><img src="images/Keyte_Group_logo_large.png" name="logo" id="logosmall"/>
+					</div>
+					<div class="eight columns mobile-two">
+						<ul>
+							<li><img src="images/icons/phone.png"/> 000-000-0000</li>
+							<li><img src="images/icons/mail.png"/> info@keytegroup.com</li>
+							<li>Follow Us:<img src="images/icons/facebook.png"/><img src="images/icons/twitter.png"/></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
