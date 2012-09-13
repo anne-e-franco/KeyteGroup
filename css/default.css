@@ -49,22 +49,12 @@ margin-top:1em;
 }
 
 /* Main Navigation */
-/*#navigation{
-	background:#F2F2F2;
-}
-#navigation a{
-	color:#4D4D4D;
-}
-#navigation >li:hover{
-	background:#FFE293;
-}
-#navigation li{
-	border-right: 2px groove #cccccc;
-}
-#navigation li:first-child{
-	border-left: 2px groove #cccccc;
-}*/
+#mainNav{
 
+}
+ul.flyout li, .nav-bar li ul li{ /*Foundation override/addition */
+	padding-left:1em;
+}
 /* Secondary Navigation */
 .secondnav{
 	list-style:none;
