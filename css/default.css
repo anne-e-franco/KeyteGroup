@@ -28,14 +28,14 @@ p{
 }*/
 /* Body */
 body{
-	background:#fafafa;
+	background:#f2f2f2;
 	font-family:Arial,sans-serif;
 	color:#4D4D4D;
 }
 .content{
 	margin:0px auto;
 	background:white;
-	box-shadow: 1px 1px 10px #ccc;
+	box-shadow: 1px 1px 10px #d2d2d2;
 	padding:20px;
 }
 /* Header */
@@ -50,7 +50,7 @@ margin-top:1em;
 
 /* Main Navigation */
 #mainNav{
-
+	background: #443F3A;
 }
 .nav-bar > li > a:first-child{
 padding-left:10px !important;
@@ -81,6 +81,10 @@ padding-left:10px !important;
 	background:transparent;
 	height: 40px;
 	width:100%;
+}
+#footer{
+	background: #443F3A;
+	color: #e6e6e6;
 }
 #footer ul, #footer ul li ul{
 	list-style:none;
