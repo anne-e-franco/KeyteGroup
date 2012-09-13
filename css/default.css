@@ -41,7 +41,7 @@ body{
 /* Header */
 #header{
 	margin-top: 1em;
-	z-index:5;
+	overflow:visible;
 }
 #headerdots{
 float:left;
@@ -52,8 +52,8 @@ margin-top:1em;
 #mainNav{
 
 }
-ul.flyout li, .nav-bar li ul li{ /*Foundation override/addition */
-	padding-left:1em;
+.nav-bar > li > a:first-child{
+padding-left:10px !important;
 }
 /* Secondary Navigation */
 .secondnav{
