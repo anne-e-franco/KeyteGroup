@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="plugins/foundation-3/stylesheets/foundation.css" media="screen"/>
+<link rel="stylesheet" href="plugins/foundation-3/stylesheets/offcanvas.css" media="screen"/>
+<link rel="stylesheet" href="plugins/foundation-3/stylesheets/general_foundicons.css" media="screen"/>
+  <link rel="stylesheet" href="plugins/foundation-3/stylesheets/fc-webicons.css">
+  <link rel="stylesheet" href="css/default.css" media="screen"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/jquery.foundation.navigation.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/jquery.foundation.buttons.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/jquery.offcanvas.js" type="text/javascript"></script>
+<script src="plugins/foundation-3/javascripts/modernizr.foundation.js" type="text/javascript"></script>
+<script type="text/javascript">$(function(){
+  $(document).foundationNavigation();
+});</script>
+<!-- Start NIVO Slider -->
+<link rel="stylesheet" href="plugins/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<script src="plugins/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+        effect: 'sliceUpDown', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 5000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: false, // Next & Prev navigation
+        controlNav: false, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        prevText: '<', // Prev directionNav text
+        nextText: '>', // Next directionNav text
+    });
+    $('#mainnav ul li').hover(
+		function () {
+			//show its submenu
+			$('ul', this).slideDown(100);
+
+		}, 
+		function () {
+			//hide its submenu
+			$('ul', this).slideUp(100);			
+		}
+	);
+});
+</script>
+<!-- end NIVO Slider -->
+<title>KeyteGroup - Home</title>
+</head>
+
+<body id='page' class="off-canvas slide-nav">
+	<div class="container">
+			<nav id="topMenu" role="navigation">
+			    			<ul id="mainNav" class="nav-bar">
+    				<li class="has-flyout">
+				<a href="">Who We Are</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+					<li><a href=''>Beau Keyte</a></li>
+					<li><a href=''>Affiliates</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">What We Do</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li><a href=''>Value Stream Mapping</a></li>
+						<li><a href=''>Collaborative Learning</a></li>
+						<li><a href=''>Train-the-Trainer</a></li>
+						<li><a href=''>Leadership Coaching</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Who We Serve</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li><a href=''>Item</a></li>
+						<li><a href=''>Item</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">How We Think</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li><a href=''>Item</a></li>
+						<li><a href=''>Item</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Contact Us</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout right">
+						<li><i class="foundicon-phone"></i> 000-000-0000</li>
+						<li><i class="foundicon-mail"></i> info@keytegroup.com</li>
+						<li>Follow Us: <a href="" class="fc-webicon facebook small">Facebook</a> <a href="" class="fc-webicon twitter small">Twitter</a></li>
+					</ul>
+				</li>
+			</ul>
+    			</ul>
+		</nav>
+
+		<header id="header" class="row">
+		  <div class="three columns mobile-two">
+		    <a href=""><img src="images/Keyte_Group_logo_large.png" name="logo" id="logo"/></a>
+		  </div>
+		  <div class="nine columns mobile-two">
+		    <nav id="menu" role="navigation" class="navigation hide-for-small">
+    			<ul id="mainNav" class="nav-bar">
+    				<li class="has-flyout">
+				<a href="">Who We Are</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+					<li><a href=''>Beau Keyte</a></li>
+					<li><a href=''>Affiliates</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">What We Do</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li><a href=''>Value Stream Mapping</a></li>
+						<li><a href=''>Collaborative Learning</a></li>
+						<li><a href=''>Train-the-Trainer</a></li>
+						<li><a href=''>Leadership Coaching</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Who We Serve</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li><a href=''>Item</a></li>
+						<li><a href=''>Item</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">How We Think</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout">
+						<li><a href=''>Item</a></li>
+						<li><a href=''>Item</a></li>
+					</ul>
+				</li>
+				<li class="has-flyout">
+				<a href="">Contact Us</a>
+				<a href="#" class="flyout-toggle"><span> </span></a>
+					<ul class="flyout right">
+						<li><i class="foundicon-phone"></i> 000-000-0000</li>
+						<li><i class="foundicon-mail"></i> info@keytegroup.com</li>
+						<li>Follow Us: <a href="" class="fc-webicon facebook small">Facebook</a> <a href="" class="fc-webicon twitter small">Twitter</a></li>
+					</ul>
+				</li>
+			</ul>
+    			</ul>
+    		</nav>
+  			<p class="show-for-small">
+  			  <a class='menu-button button' id="menuButton" href="#menu">Menu</a>
+  			  <a class='sidebar-button button' id="sidebarButton" href="#sidebar">Extra</a>
+  			</p>
+		  </div>
+		</header>
+	<div class='row' id="maincontentwrapper">
+	<div class="ten columns centered">
+		<div class="row">
+		<div id="headerdots"><img src="images/headerdots.png"/></div>
+		<div id='maincontent' class="eleven columns content">
+			<div class="row">
+				<div class="three columns hide-for-small">
+					<ul>
+						<li>Who We Are
+						<ul>
+						<li>Beau Keyte</li>
+						<li>Affiliates</li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="nine columns">
+					<ul class="breadcrumbs">
+						<li><a href=" ">Home</a></li>
+						<li><a href="">Who We Are</a></li>
+						<li class="current"><a>Beau Keyte</a></li>
+					</ul>
+					<img class="inline right" src="images/beau.jpg"/>
+					<h2> Beau Keyte</h2>
+					<p>
+					Beau began his "lean" consulting career in the mid-80's at the Ford Motor company. He has clients in wide variety of industries such as automotive, healthcare, financial services, pharmaceutical, paper, chemical, refrigeration, distribution, and transportation. Beau has also successfully tied lean initiatives to the "bottom line" through the application of lean cost management techniques.
+In addition to assisting companies in implementing lean strategies, Beau also trains organizations in a variety of public and private settings. He is currently a faculty member and instructor for the Lean curriculums at the Lean Enterprise Institute, the University of Michigan, Ohio State University, and the National Institute of Standards and Technology (NIST), where he has assisted in the development and implementation of a consistent training program for use within small- and medium-sized manufacturers.</p>
+<p>
+Beau has co-authored the book, The Complete Lean Enterprise: Value Stream Mapping for Office and Administrative Processes, which received the Shingo Prize in 2005.
+</p>
+<p>
+Beau received a BSE and an MBA from the University of Michigan.
+
+					</p>
+				</div>
+			</div>
+			</div>					
+			<div class="row">
+				<div id="footerdots" class="four columns push-seven mobile-three">
+				<img src='images/footerdots.png'/>
+			</div>
+		</div>	
+	</div>
+			</div>
+
+	<div id='clear' class='row'>
+		<div class='eleven columns centered'></div>	
+	</div>
+
+	<div id="footer" class='row content'>
+		<div class="twelve columns">
+			<div class="row">
+				<div class="two columns mobile-one">
+					<ul>
+						<li>Who We Are
+						<ul>
+						<li>Beau Keyte</li>
+						<li>Affiliates</li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="two columns mobile-one">
+					<ul>
+						<li>What We Do
+						<ul>
+						<li>Value Stream Mapping</li>
+						<li>Collaborative Learning</li>
+						<li>Train-the-Trainer</li>
+						<li>Leadership Coaching</li>
+						</ul>
+						</li>
+					</ul>
+				</div>				
+				<div class="two columns mobile-one">
+					<ul>
+						<li>Who We Serve
+						<ul>
+						<li>Item</li>
+						<li>Item</li>
+						</ul>
+						</li>
+					</ul>
+				</div>	
+				<div class="two columns mobile-one">
+					<ul>
+						<li>How We Think
+						<ul>
+							<li>Item</li>
+							<li>Item</li>
+						</ul>
+						</li>
+					</ul>
+				</div>				
+				<div class="four columns mobile-four">
+					<div class="row">
+						<div class="four columns mobile-two"><img src="images/Keyte_Group_logo_large.png" name="logo" id="logosmall"/>
+					</div>
+					<div class="eight columns mobile-two">
+						<ul>
+							<li><i class="foundicon-phone"></i> 000-000-0000</li>
+							<li><i class="foundicon-mail"></i> info@keytegroup.com</li>
+							<li>Follow Us: <a href="" class="fc-webicon facebook small">Facebook</a> <a href="" class="fc-webicon twitter small">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

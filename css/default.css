@@ -3,17 +3,17 @@
 h1{
 	color:#877B6C;
 	font-style:italic;
-	font-size:2em;
+	/*font-size:2em;*/
 }
 h2{
 	color:#FBB040;
 	text-transform:uppercase;
-	font-size: 1.35em;
+	/*font-size: 1.35em;*/
 }
 h3{
 	color:#877B6C;
 	text-transform:capitalize;
-	font-size: 1.15em;
+	/*font-size: 1.15em;*/
 }
 h4{
 	color:#FBB040;
