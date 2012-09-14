@@ -112,3 +112,26 @@ ul.breadcrumbs{
 #footer li{
 	font-size:.75em;
 }
+/* Testimonial */
+.testimonial > h3 {
+display: inline-block;
+text-align: right;
+border-top: 2px solid #FBB040;
+border-right: 2px solid #FBB040;
+border-left: 2px solid #FBB040;
+border-radius: 4px 4px 0px 0pc;
+padding: 0.5em;
+background: white;
+position: relative;
+left: 70%;
+top: .95em;
+font-size: 1.25em;
+font-style: italic;
+}
+.testimonial > blockquote {
+border-top: 2px solid #FBB040;
+border-left: none;
+}
+.testimonial > blockquote > cite {
+	text-align:right;
+}
