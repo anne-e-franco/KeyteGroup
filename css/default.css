@@ -112,6 +112,12 @@ ul.breadcrumbs{
 #footer li{
 	font-size:.75em;
 }
+#footer a{
+	color:#e6e6e6;
+}
+#footer a:hover{
+	color:#FBB040;
+	}
 /* Testimonial */
 .testimonial > h3 {
 display: inline-block;
