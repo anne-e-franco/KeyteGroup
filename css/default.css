@@ -34,6 +34,10 @@ a{
 .button:hover{
 	background: #333;
 }
+/* Icon overrides */
+.fc-webicon {
+	margin-bottom:0px;
+}
 /* Body */
 body{
 	background:#f2f2f2;
@@ -56,7 +60,6 @@ body{
 }
 #headerdots{
 float:left;
-margin-top:1em;
 }
 
 /* Main Navigation */
@@ -90,7 +93,7 @@ ul.breadcrumbs{
 	margin-bottom: -9em;
 }
 #maincontent{
-	padding: 10em 3em 2em;
+	padding: 2em 3em;
 	min-height:358px;
 }
 /* Footer */
