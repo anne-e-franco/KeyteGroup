@@ -143,3 +143,10 @@ border-left: none;
 .testimonial > blockquote > cite {
 	text-align:right;
 }
+/* Nivo-slider theme overrides */
+.nivo-caption{
+	position:absolute;
+	bottom:13%;
+	padding:10px 30px;
+	width:50%;
+}
