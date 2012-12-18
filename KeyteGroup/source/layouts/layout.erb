@@ -51,54 +51,8 @@ $(window).load(function() {
     <title><%= data.page.title || "KeyteGroup" %></title></head>
 
 <body id='page' class="off-canvas slide-nav">
-			<nav id="topMenu" role="navigation">
-			    			<ul id="mainNav" class="nav-bar">
-    				<li class="has-flyout">
-				<a href="">Who We Are</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-					<li><a href=''>Beau Keyte</a></li>
-					<li><a href=''>Affiliates</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">What We Do</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-						<li><a href=''>Value Stream Mapping</a></li>
-						<li><a href=''>Collaborative Learning</a></li>
-						<li><a href=''>Train-the-Trainer</a></li>
-						<li><a href=''>Leadership Coaching</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">Who We Serve</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-						<li><a href=''>Finance</a></li>
-						<li><a href=''>Healthcare</a></li>
-						<li><a href=''>Administration</a></li>
-						<li><a href=''>Manufacturing</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">How We Think</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-						<li><a href=''>Item</a></li>
-						<li><a href=''>Item</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">Contact Us</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout right">
-						<li><i class="foundicon-phone"></i> 000-000-0000</li>
-						<li><i class="foundicon-mail"></i> info@keytegroup.com</li>
-						<li>Follow Us: <a href="" class="fc-webicon facebook small">Facebook</a> <a href="" class="fc-webicon twitter small">Twitter</a></li>
-					</ul>
-				</li>
-			</ul>
+		<nav id="topMenu" role="navigation">
+			<%= partial "navigation" %>
 		</nav>
 
 		<header id="header" class="row">
@@ -107,53 +61,7 @@ $(window).load(function() {
 		  </div>
 		  <div class="nine columns mobile-two">
 		    <nav id="menu" role="navigation" class="navigation hide-for-small">
-    			<ul id="mainNav" class="nav-bar">
-    				<li class="has-flyout">
-				<a href="">Who We Are</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-					<li><a href=''>Beau Keyte</a></li>
-					<li><a href=''>Affiliates</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">What We Do</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-						<li><a href=''>Value Stream Mapping</a></li>
-						<li><a href=''>Collaborative Learning</a></li>
-						<li><a href=''>Train-the-Trainer</a></li>
-						<li><a href=''>Leadership Coaching</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">Who We Serve</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-						<li><a href=''>Finance</a></li>
-						<li><a href=''>Healthcare</a></li>
-						<li><a href=''>Administration</a></li>
-						<li><a href=''>Manufacturing</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">How We Think</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<ul class="flyout">
-						<li><a href=''>Item</a></li>
-						<li><a href=''>Item</a></li>
-					</ul>
-				</li>
-				<li class="has-flyout">
-				<a href="">Contact Us</a>
-				<a href="#" class="flyout-toggle"><span> </span></a>
-					<div class="flyout right">
-						<i class="foundicon-phone"></i> 000-000-0000<br/>
-						<i class="foundicon-mail"></i> info@keytegroup.com<br/>
-						Follow Us: <a href="" class="fc-webicon facebook small">Facebook</a> <a href="" class="fc-webicon twitter small">Twitter</a>
-					</div>
-				</li>
-			</ul>
+ 				<%= partial "navigation" %>
     		</nav>
   			<p class="show-for-small">
   			  <a class='menu-button button' id="menuButton" href="#menu">Menu</a>
